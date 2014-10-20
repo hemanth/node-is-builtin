@@ -1,30 +1,21 @@
-# is-mp3 [![Build Status](https://travis-ci.org/hemanth/is-keyword.svg?branch=master)](https://travis-ci.org/hemanth/is-keyword)
+# is-mp3 [![Build Status](https://travis-ci.org/hemanth/is-builtin.svg?branch=master)](https://travis-ci.org/hemanth/is-builtin)
 
-> Checks if the given token is an ES keyword.
+> Checks if the given module name is in builtins.
 
 ## Install
 
 ```sh
-$ npm install --save is-keyword
+$ npm install --save is-builtin
 ```
-
-```sh
-$ bower install --save is-keyword
-```
-
-```sh
-$ component install hemanth/is-keyword
-```
-
 
 ## Usage
 
 ##### Node.js
 
 ```js
-var isKeyword = require('is-keyword');
-isKeyword('let');
-//=> true
+var isBuiltin = require('is-builtin');
+isBuiltin('fs'); //=> true
+isBultin('process') //=> false
 ```
 
 ## License

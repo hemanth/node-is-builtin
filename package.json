@@ -1,9 +1,9 @@
 {
-  "name": "is-keyword",
-  "version": "0.1.0",
-  "description": "Checks if the given token is an ES keyword.",
+  "name": "is-builtin",
+  "version": "0.0.0",
+  "description": "Checks if the given module name is in builtins.",
   "license": "MIT",
-  "repository": "hemanth/is-keyword",
+  "repository": "hemanth/is-builtin",
   "author": {
     "name": "Hemanth.HM",
     "email": "hemanth.hm@gmail.com",
@@ -13,8 +13,7 @@
     "node": ">=0.10.0"
   },
   "scripts": {
-    "test": "mocha",
-    "browser": "browserify -s $npm_package_name -o browser.js ."
+    "test": "mocha"
   },
   "files": [
     "index.js"
@@ -24,13 +23,10 @@
     "detect",
     "check",
     "is",
-    "keyword",
-    "keywords",
-    "ES"
+    "builtins",
+    "node"
   ],
   "devDependencies": {
-    "browserify": "^3.0.0",
-    "mocha": "*",
-    "read-chunk": "^0.1.0"
+    "mocha": "*"
   }
 }
