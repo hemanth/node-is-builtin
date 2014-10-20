@@ -1,4 +1,4 @@
-# is-mp3 [![Build Status](https://travis-ci.org/hemanth/is-builtin.svg?branch=master)](https://travis-ci.org/hemanth/is-builtin)
+# is-builtin [![Build Status](https://travis-ci.org/hemanth/is-builtin.svg?branch=master)](https://travis-ci.org/hemanth/is-builtin)
 
 > Checks if the given module name is in builtins.
 
