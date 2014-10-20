@@ -1,6 +1,5 @@
 'use strict';
 var assert = require('assert');
-var readChunk = require('read-chunk');
 var isBuiltin = require('./index');
 
 function check(token) {
