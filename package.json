@@ -1,6 +1,6 @@
 {
   "name": "is-builtin",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "description": "Checks if the given module name is in builtins.",
   "license": "MIT",
   "repository": "hemanth/is-builtin",
