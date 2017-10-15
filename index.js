@@ -1,4 +1,4 @@
-const builtinModules = require('builtin-modules');
+var builtinModules = require('builtin-modules');
 
 module.exports = function (module) {
   'use strict';
