@@ -1,6 +1,10 @@
 'use strict';
 var builtinModules = require('builtin-modules');
 
-module.exports = (module) => {
-  return builtinModules.includes(module);
+module.exports = (...modules) => {
+  var results = {};
+  modules.forEach(element => {
+    results[element] = builtinModules.includes(element);
+  });
+  return results;
 };
