@@ -1,5 +1,10 @@
-module.exports = function (module) {
-  'use strict';
-  var builtins = require('repl')._builtinLibs;
-  return !!~builtins.indexOf( module );
+'use strict';
+var builtinModules = require('builtin-modules');
+
+module.exports = (...modules) => {
+  var results = {};
+  modules.forEach(element => {
+    results[element] = builtinModules.includes(element);
+  });
+  return results;
 };
